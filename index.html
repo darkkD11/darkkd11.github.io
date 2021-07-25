@@ -1,197 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/styles/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:800,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b4b06a6277.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <title>Devesh</title>
+</head>
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
-        <title>Devesh Yadav</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Devesh Yadav</a>
+<body>
+    <div>
+        <div class="watermark">DEVESH</div>
+        <div class="watermark">DEVESH</div>
+        <div class="watermark">DEVESH</div>
+        <div id="header-name-ldm">
+            <h1 id="name">Devesh Yadav</h1>
+            <span id="switch-ldm-logo">
+                <div id="switch-container">
+                    <img src="./assets/images/moon.svg" alt="">
                 </div>
+            </span>
+        </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+        <p id="slogan">Software engineer</p>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
+        <div id="go-back-button"> <i class="fas fa-chevron-left"></i> Menu</div>
+        <section id="about-me-intro-section" class="section">
+            <p>Full Stack Web Developer from Boisar. I have a passion for creating seamless, beautiful
+                web application. I have experience with various programming languages and specifically web
+                technologies. I am currently available to hire.<br></p>
+            <a href="mailto:darkkd11@gmail.com"> Get in touch</a>
+        </section>
+        <!-- menu -->
+        <header id="menu">
+            <p id="about-me"> <a href="">About Me</a> </p>
+            <p id="skills"> <a href="">Skills</a> </p>
+            <p id="projects"> <a href="">Projects</a> </p>
+            <p id="links"> <a href="">Links</a> </p>
+
         </header>
+    </div>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Devesh</span><br> Web Developer</h1>
+    <main>
 
-                    <a href="#" class="button">Contact</a>
-                </div>
+        <!-- About me -->
 
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
+        <section id="about-me-section" class="section">
+            <h2>About me</h2>
+            <p>I am a Final year student of B.E in Computer Engineering looking forward to working for an organization
+                to enhance my knowledge, skills, and techniques through continuous learning and experience. I have also
+                learned languages like JavaScript, Python, and Java. As I am just starting my career in IT Industry, my
+                goal is to learn new things that will contribute to my company's growth and personal life.<br>
+                <a href="mailto:darkkd11@gmail.com">Hire me</a>
+            </p>
+        </section>
 
-                <div class="home__img">    
-                    <img src="assets/images/perfil.png" alt="">
-                </div>
-            </section>
+        <!-- Skills -->
+        <section id="skills-section" class="section">
+            <h2>Skills</h2>
+            <article>
+                <section>
+                    <h4>Programmings languages <img class="section-logos" src="./assets/images/programming.svg"></h4>
+                    <ul>
+                        <li skill-description="Javascript"><object type="image/svg+xml"
+                                data="./assets/images/javascript.svg"></object>JavaScript</li>
+                        <li skill-description="php"><object type="image/svg+xml"
+                                data="./assets/images/php.svg"></object>PHP</li>
+                        <li skill-description="Java"><object type="image/svg+xml"
+                                data="./assets/images/python.svg"></object>Python</li>
+                        <li skill-description="Java"><object type="image/svg+xml"
+                                data="./assets/images/java.svg"></object>Java
+                        </li>
+                        <li skill-description="Java"><object type="image/svg+xml"
+                                data="./assets/images/dart.svg"></object>Dart
+                        </li>
+                        <li skill-description="Java"><object type="image/svg+xml"
+                                data="./assets/images/go.svg"></object>Go</li>
+                    </ul>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+                </section>
+                <section>
+                    <h4>Web Frontend<img class="section-logos" src="./assets/images/frontend.svg"></h4>
+                    <ul>
+                        <li skill-description="HTML 5"><object type="image/svg+xml" data="./assets/images/html5.svg"
+                                class="svg-logos"></object>HTML</li>
+                        <li skill-description="CSS"><object type="image/svg+xml"
+                                data="./assets/images/css3.svg"></object>CSS
+                        </li>
+                        <li skill-description="Sass"><object type="image/svg+xml"
+                                data="./assets/images/react.svg"></object>React
+                        </li>
+                        <li skill-description="Bootstrap"><object type="image/svg+xml"
+                                data="./assets/images/bootstrap.svg"></object>Bootstrap</li>
+                        <li skill-description="JQuery"><object type="image/svg+xml"
+                                data="./assets/images/jquery.svg"></object>Jquery</li>
+                        <li skill-description="Sass"><object type="image/svg+xml"
+                                data="./assets/images/sass.svg"></object>Sass
+                        </li>
+                    </ul>
+                </section>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/images/about.jpg" alt="">
-                    </div>
-                    
+                <section>
+                    <h4>Web Backend <img class="section-logos" src="./assets/images/backend.svg"></h4>
+                    <ul>
+                        <li skill-description="Node">
+                        <li skill-description="Sass"><object type="image/svg+xml"
+                                data="./assets/images/node-dot-js.svg"></object>Node</li>
+                        <li skill-description="express"><object type="image/svg+xml"
+                                data="./assets/images/node-dot-js.svg"></object>Express</li>
+                        <li skill-description="Laravel"><object type="image/svg+xml"
+                                data="./assets/images/laravel.svg"></object>Laravel</li>
+                        <li skill-description="Django"><object type="image/svg+xml"
+                                data="./assets/images/django.svg"></object>Django</li>
+                        <li skill-description="Flask"><object type="image/svg+xml"
+                                data="./assets/images/flask.svg"></object>Flask</li>
+                    </ul>
+
+                </section>
+
+                <section>
+                    <h4>Mobile <img class="section-logos" src="./assets/images/phone.svg"></h4>
+                    <ul>
+                        <li skill-description="react-native"><object type="image/svg+xml"
+                                data="./assets/images/react.svg"></object>React native</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Desktop <img class="section-logos" src="./assets/images/desktop.svg"></h4>
+                    <ul>
+                        <li skill-description="Electron"><object type="image/svg+xml"
+                                data="./assets/images/electron.svg"></object>Electron</li>
+                        <li skill-description="Tkinter"><object type="image/svg+xml"
+                                data="./assets/images/python.svg"></object>Tkinter</li>
+                        <li skill-description="JavaFx"><object type="image/svg+xml"
+                                data="./assets/images/java.svg"></object>JavaFx</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Databases<img class="section-logos" src="./assets/images/database.svg"></h4>
+                    <ul>
+                        <li skill-description="Mysql"><object type="image/svg+xml"
+                                data="./assets/images/mysql.svg"></object>Mysql</li>
+                        <li skill-description="mongodb"><object type="image/svg+xml"
+                                data="./assets/images/mongodb.svg"></object>Mongodb</li>
+                        <li skill-description="Oracle"><object type="image/svg+xml"
+                                data="./assets/images/oracle.svg"></object>Oracle</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Other tools <img class="section-logos" src="./assets/images/tools.svg"></h4>
+                    <ul>
+                        <li skill-description="Git"><object type="image/svg+xml"
+                                data="./assets/images/git.svg"></object>Git</li>
+                        <li skill-description="Github"><object type="image/svg+xml"
+                                data="./assets/images/github.svg"></object>Github</li>
+                        <li skill-description="Visual Studio Code"><object type="image/svg+xml"
+                                data="./assets/images/visualstudiocode.svg"></object>VScode</li>
+                        <li skill-description="Terminal"><object type="image/svg+xml"
+                                data="./assets/images/gnubash.svg"></object>Unix Shells (Bash/zsh)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h4>Human languages <img class="section-logos" src="./assets/images/languages.svg"></h4>
+                    <ul>
+                        <li>English</li>
+                        <li>French</li>
+                        <li>Arabic</li>
+                    </ul>
+                </section>
+            </article>
+
+        </section>
+
+        <section id="projects-section" class="section">
+            <!-- will add tags to each project-->
+            <div id="projects-wrapper">
+                <div>
                     <div>
-                        <h2 class="about__subtitle">I'am Devesh</h2>
-                        <p class="about__text">I am a Final year student of B.E in Computer Engineering looking forward to working for an organization to enhance my knowledge, skills, and techniques through continuous learning and experience. I have also learned languages like JavaScript, Python, and Java. As I am just starting my career in IT Industry, my goal is to learn new things that will contribute to my company's growth and personal life.</p>           
-                    </div>                                   
+                        <h3>
+                            <a href="https://kaytouki.com" target="_blank">Kaytouki.com</a>
+                            <br>
+                            <em> - Carpooling website</em>
+                        </h3>
+
+                        <div class="tags">
+                            <span>PHP</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Mysql</span>
+                        </div>
+                    </div>
+                    <img src="./assets/images/kaytouki.png" alt="">
+
                 </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
+                <div>
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html">
+                        <h3> <a href="https://logorain.com" target="_blank">Logorain.com </a>
+                            <br>
+                            <em>- Logos Generator</em>
+                        </h3>
 
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-paint skills__icon'></i>
-                                <span class="skills__name">UX/UI</span>
-                            </div>
-                            <div class="skills__bar skills__ux">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Django</span>
+                            <span>Javascript</span>
                         </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/images/work3.jpg" alt="" class="skills__img">
-                    </div>
+                    <img src="./assets/images/logorain.png" alt="">
+
                 </div>
-            </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/images/work1.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/images/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/images/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/images/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/images/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/images/work6.jpg" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Send" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Devesh</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p>&#169; 2020 copyright all right reserved</p>
-        </footer>
+        </section>
+
+        <!-- Links -->
+        <section id="links-section" class="section">
+
+            <h2>Links</h2>
+            <div>
+                <a href="mailto:ziyadkader@gmail.com" description="Mail"><i class="fas fa-envelope"
+                        onmouseover='displayDescriptionOnLinks("fa-envelope");'></i>
+                    mail</a>
+
+                <a href="https://www.linkedin.com/in/ziyadsk/" description="Linkedin"><i class="fab fa-linkedin-in">
+                    </i>
+                    linkedin</a>
+
+                <a href="https://github.com/ziyadsk" description="Github"><i class="fab fa-github"></i>
+                    github</a>
+                <a href="https://stackoverflow.com/users/6744380/ziyadsk" description="StackOverflow"><i
+                        class="fab fa-stack-overflow"></i>
+                    stackoverflow</a>
+                <a href="https://www.facebook.com/Ziyad.abdelkader" description="Facebook"><i class="fab fa-facebook" ;>
+                    </i> facebook</a>
+                <a href="https://twitter.com/SkZiyad" description="Twitter"><i class="fab fa-twitter"></i>
+                    twitter</a>
 
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+            </div>
+            </div>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/scripts/main.js"></script>
-    </body>
+        </section>
+    </main>
+    <script src="assets/scripts/main.js"></script>
+</body>
+
 </html>

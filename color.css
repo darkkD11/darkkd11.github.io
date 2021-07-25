@@ -1,0 +1,23 @@
+.bgcolor{
+    color:#fafafa;
+}
+
+.bgcolordark{
+    color:#111216;
+}
+   
+.colordark{
+    --background-color:#111216;
+    --text-color: #999;
+    --text-hover-color:#ddd;
+    --text-title-color:#eee;
+    --light-accent-color:#222;
+}
+
+.colorlight{
+    --background-color:#fafafa;
+    --text-color: #111;
+    --text-hover-color:#000;
+    --text-title-color:#111;
+    --light-accent-color:#ccc;
+}
