@@ -1,10 +1,10 @@
 @import url("mobile.css");
 :root {
-  --background-color: #fafafa;
-  --text-color: #333;
-  --text-title-color: #111;
-  --text-hover-color: #000;
-  --light-accent-color: #ccc;
+  --background-color: #111216;
+  --text-color: #999;
+  --text-title-color: #eee;
+  --text-hover-color: #ddd;
+  --light-accent-color: #222;
   --accent-color: #abbaab;
   --blue-color: #2980b9;
 }

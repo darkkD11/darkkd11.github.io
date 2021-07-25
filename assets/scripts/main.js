@@ -97,20 +97,20 @@ function switchDarkLightMode() {
     let icon = document.querySelector("#switch-container img");
    
     icon.onclick = () => {
-    let darkColor = "#111216"; 
-    let darkTextColor = "#999";
-    let darkTextTitleColor = "#eee";
-    let darkTextHoverColor = "#ddd";
-    let darkAccentColor = "#222";
+    let darkColor = "#fafafa"; 
+    let darkTextColor = "#111";
+    let darkTextTitleColor = "#111";
+    let darkTextHoverColor = "#000";
+    let darkAccentColor = "#ccc";
     icon.onmouseover = () => {
-        console.log("Please Don't Blind Me 😥");
-        icon.setAttribute("src","./assets/images/moon-full.svg");
+        console.log("Ha Ha Bring the Darkness 😈");
+        icon.setAttribute("src","./assets/images/sun-filled.svg");
     }
     icon.onmouseout = () => {
-        icon.setAttribute("src","./assets/images/moon.svg");
+        icon.setAttribute("src","./assets/images/sun.svg");
     }
     let color = getComputedStyle(document.documentElement).getPropertyValue("--background-color");
-    if(color == "#fafafa"){
+    if(color == "#111216"){
         icon.setAttribute("src","./assets/images/sun.svg");
         document.documentElement.style.setProperty('--background-color',darkColor);
         document.documentElement.style.setProperty('--text-color',darkTextColor);
@@ -118,26 +118,26 @@ function switchDarkLightMode() {
         document.documentElement.style.setProperty('--text-hover-color',darkTextHoverColor);
         document.documentElement.style.setProperty('--light-accent-color',darkAccentColor);
         icon.onmouseover = () => {
-                icon.setAttribute("src","./assets/images/sun-filled.svg");
+                icon.setAttribute("src","./assets/images/moon-full.svg");
         }
         icon.onmouseout = () => {
-                icon.setAttribute("src","./assets/images/sun.svg");
+                icon.setAttribute("src","./assets/images/moon.svg");
         }
     
     } else {
         icon.setAttribute("src","./assets/images/moon.svg");
-        document.documentElement.style.setProperty('--background-color', '#fafafa');
-        document.documentElement.style.setProperty('--text-color', '#111');
-        document.documentElement.style.setProperty('--text-hover-color',"#000");
-        document.documentElement.style.setProperty('--text-title-color',"#111");
-        document.documentElement.style.setProperty('--light-accent-color',"#ccc");
+        document.documentElement.style.setProperty('--background-color', '#111216');
+        document.documentElement.style.setProperty('--text-color', '#999');
+        document.documentElement.style.setProperty('--text-hover-color',"#ddd");
+        document.documentElement.style.setProperty('--text-title-color',"#eee");
+        document.documentElement.style.setProperty('--light-accent-color',"#222");
 
         icon.onmouseover = () => {
-            console.log("Ha Ha Bring the Darkness 😈");
-            icon.setAttribute("src","./assets/images/moon-full.svg");
+            console.log("Please Don't Blind Me 😥");
+            icon.setAttribute("src","./assets/images/sun-filled.svg");
         }
         icon.onmouseout = () => {
-            icon.setAttribute("src","./assets/images/moon.svg");
+            icon.setAttribute("src","./assets/images/sun.svg");
         }
     }
     }
