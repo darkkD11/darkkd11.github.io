@@ -330,14 +330,12 @@ article section {
   background-color: var(--background-color);
 }
 
-article object {
-  height: 2.5em;
+.skill-icon {
+  font-size: 1.4em;
   width: 1.5em;
   margin-right: 0.5em;
-}
-
-svg {
-  fill: blue;
+  text-align: center;
+  color: var(--text-color);
 }
 
 section h4 {
@@ -351,15 +349,10 @@ section h4 {
   margin-bottom: 2em;
 }
 
-section h4 > img {
-  height: 3em;
-  width: 3em;
-  opacity: 0.2;
-  display: none;
-  margin-top: -1em;
-  box-sizing: border-box;
-  padding: 0.5em;
-  background-color: aliceblue;
+section h4 > i {
+  font-size: 1.1em;
+  opacity: 0.4;
+  margin-left: 0.5em;
 }
 
 article > section > ul {
