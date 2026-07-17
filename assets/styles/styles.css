@@ -59,7 +59,7 @@
 
   100% {
     opacity: 1;
-    transform: translateY((0em));
+    transform: translateY(0em);
   }
 }
 
@@ -75,7 +75,7 @@
 
   100% {
     opacity: 1;
-    transform: translateY((0em));
+    transform: translateY(0em);
   }
 }
 
@@ -522,6 +522,56 @@ article li {
   text-align: center;
   width: 50%;
   margin: 1em auto;
+}
+
+.experience-description,
+.education-description {
+  font-size: 0.85em;
+  line-height: 1.6;
+  opacity: 0.8;
+  margin: 0.5em 0;
+}
+
+/* Education Section */
+#education-section {
+  display: flex;
+}
+
+#education-wrapper {
+  display: grid;
+  gap: 3em;
+}
+
+#education-wrapper > div {
+  background-color: var(--background-color);
+  padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 0px 5px var(--light-accent-color),
+    15px 15px 0px 5px var(--light-accent-color);
+}
+#education-wrapper > div:hover {
+  box-shadow: 0px 0px 0px 5px, 0px 0px 0px 5px;
+  transition: all 0.4s;
+}
+
+#education-wrapper > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 2em;
+}
+#education-wrapper > div h3 em {
+  font-size: 0.7em;
+  font-weight: 400;
+  white-space: normal;
+  max-width: 100px;
+}
+#education-wrapper > div h3 a:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+  position: relative;
+  top: -2px;
 }
 
 /* Link Section */
